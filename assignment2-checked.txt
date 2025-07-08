@@ -1,0 +1,45 @@
+========== NETWORK CONFIGURATION START ==========
+[INFO] Netplan backup already exists
+[INFO] Netplan already configured with 192.168.16.21/24
+[INFO] Ensuring /etc/hosts contains correct server1 entry...
+[INFO] /etc/hosts updated with: 192.168.16.21 server1
+========== NETWORK CONFIGURATION COMPLETE ==========
+========== SOFTWARE INSTALLATION START ==========
+[INFO] apache2 is already installed
+[INFO] Enabling and starting apache2 service...
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+active
+[SUCCESS] apache2 is running
+[INFO] squid is already installed
+[INFO] Enabling and starting squid service...
+Synchronizing state of squid.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable squid
+active
+[SUCCESS] squid is running
+========== SOFTWARE INSTALLATION COMPLETE ==========
+========== USER ACCOUNT CONFIGURATION START ==========
+[INFO] Processing user: dennis
+[INFO] User dennis already exists
+[INFO] Added extra key and sudo access to dennis
+[INFO] Processing user: aubrey
+[INFO] User aubrey already exists
+[INFO] Processing user: captain
+[INFO] User captain already exists
+[INFO] Processing user: snibbles
+[INFO] User snibbles already exists
+[INFO] Processing user: brownie
+[INFO] User brownie already exists
+[INFO] Processing user: scooter
+[INFO] User scooter already exists
+[INFO] Processing user: sandy
+[INFO] User sandy already exists
+[INFO] Processing user: perrier
+[INFO] User perrier already exists
+[INFO] Processing user: cindy
+[INFO] User cindy already exists
+[INFO] Processing user: tiger
+[INFO] User tiger already exists
+[INFO] Processing user: yoda
+[INFO] User yoda already exists
+========== USER ACCOUNT CONFIGURATION COMPLETE ==========
